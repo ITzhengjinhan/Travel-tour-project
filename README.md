@@ -1,7 +1,7 @@
 # Travel-tour-project
 基于uniapp开发一款景区导览小程序，前端是微信小程序，后端是node+express+mysql（功能包括：手机短信验证、活动报名、扫二维码集齐碎片领取奖品、智能路线推荐、智能语音播报等）
 
-#node+express：主要目的是将数据库的内容打包成JSON格式，再通过api接口形式返回
+#node+express：主要目的是将操作数据库得到的结果打包成JSON格式，再通过api接口形式返回
 
 #短信验证是基于榛子云短信，注意zhenzisms.client.init('https://sms_developer.zhenzikj.com', 'appId', 'appSecret');放置自己的appId，appSecret
 具体参考文档：
