@@ -11,7 +11,7 @@ http://smsow.zhenzikj.com/doc/weixinmp_code_sdk_doc.html
 
 ## 地图导览默认是调用腾讯地图，若没安装腾讯地图，会调用高德地图
 
-## 二维码目前仅供项目中的二维码，可在https://www.liantu.com/中设计自己喜欢的二维码
+## 二维码目前仅供项目中的二维码，可在https://www.liantu.com/,中设计自己喜欢的二维码
 ### 其原理是在数据库中建立一个collect表，字段为phonenumber，model1，model2...model9，表示某手机用户在不同模块下的激活情况，
 ### 当扫码成功，将对应模块的model变为true，并让对应图片显示出来。
 
